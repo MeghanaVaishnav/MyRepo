@@ -86,7 +86,9 @@
    </settings>
    <files xsi:type="projectFileStore">
       <filetype type="macro" xsi:type="cobolFileContainer"/>
-      <filetype type="cobol" xsi:type="cobolFileContainer"/>
+      <filetype type="cobol" xsi:type="cobolFileContainer">
+         <file compile="true" path="Pgm1.cbl" xsi:type="cobolFile"/>
+      </filetype>
       <filetype type="asm" xsi:type="cobolFileContainer"/>
       <filetype type="psb" xsi:type="cobolFileContainer"/>
       <filetype type="jcl" xsi:type="cobolFileContainer"/>
